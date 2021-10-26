@@ -18,7 +18,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	background-color: #1f2937;
-	color: white;
+	color: #f9faf8;
 	padding-top: 10px;
 	padding-bottom: 65px;
 }
@@ -43,8 +43,9 @@ body {
 
 .large-text {
 	margin-bottom: 5px;
-	font-size: 45px;
+	font-size: 48px;
 	font-weight: bold;
+	color: #f9faf8;
 
 }
 
@@ -53,6 +54,8 @@ body {
 	max-width: 450px;
 	line-height: 120%;
 	margin-bottom: 16px;
+	font-size: 18px;
+	color: #e5e7eb;
 }
 
 button {
@@ -63,14 +66,14 @@ button {
 	align-items: center;
 	justify-content: center;
 	border-radius: 5px;
-	background: rgb(1, 106, 243);
+	background: #3882f6;
 	border: 2px solid rgb(44, 44, 44);
 
 }
 
 button:hover {
-	background-color:rgba(0, 102, 0, 0.925);
-	color: black;
+	background-color: #1358c7;
+	color: white;
 }
 
 .links {
@@ -90,8 +93,9 @@ a {
 .targets {
 	text-align: center;
 	margin: 20px;
-	font-size: 35px;
+	font-size: 36px;
 	font-weight:bold;
+	color: #1f2937;
 }
 
 .container2 {
@@ -107,12 +111,98 @@ a {
 	margin-bottom: 10px;
 	font-size: 20px;
 	font-weight: bold;
+	color: #1f2937;
 
 }
 
 .smallpic {
 	max-width: 200px;
 	border-radius: 5px;
-	border-color: rgb(26, 81, 184);
-	border-width: 2px;
+	border: 2px solid #3882f6;
+}
+
+.section-3 {
+	display: flex;
+	background: #e5e7eb;
+	justify-content: center;
+	align-items: center;
+	
+}
+.quote-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 600px;
+	
+}
+
+.quote {
+	display: flex;
+	margin-top: 100px;
+	font-weight: lighter;
+	
+}
+
+.quote-hana {
+	margin-bottom: 100px;
+	align-self: flex-end;
+	font-weight: bold;
+	
+}
+
+.quote,
+.quote-hana {
+	flex: 1;
+	font-size: 18px;
+	font-style: italic;
+	color: #1f2937;
+}
+
+.section-4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bluebox {
+	flex: 1;
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: #3882f6;
+	max-width: 700px;
+	border-radius: 5px;
+	justify-content: space-around;
+	padding: 25px 75px;
+
+}
+
+.action-text {
+	flex: 1;
+	color: white;
+}
+
+.action-button {
+	flex: 1, 1, 0;
+	width: 100px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	background: #3882f6;
+	border: 2px solid white;
+	color: white;
+	
+}
+
+.call {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.regist {
+	font-weight: 100;
+	font-size: 14px;
 }
